@@ -1,0 +1,15 @@
+## Eyewear (Only One at a Time)
+- SUNGLASSES: {trigger: divisible_by_12, exclude: divisible_by_56, count: 768}
+- COLORED_SUNGLASSES: {trigger: divisible_by_220, count: 30}
+- THREE_D_GLASSES: {trigger: divisible_by_33, count: 233}
+- RED_NOUN_GLASSES: {trigger: divisible_by_35, count: 263}
+- BLUE_NOUN_GLASSES: {trigger: divisible_by_37, count: 232}
+- DMT_GLASSES: {trigger: divisible_by_39, count: 171}
+- RAINBOW_SUNGLASSES: {trigger: divisible_by_31, count: 267}
+- EYE_PATCH: {trigger: divisible_by_32, count: 188}
+- BUG_GLASSES: {trigger: divisible_by_34, count: 204}
+- WHITE_SUNGLASSES: {trigger: divisible_by_40, count: 84}
+- STRIPED_GLASSES: {trigger: divisible_by_38, count: 165}
+- VR_HEADSET: {trigger: divisible_by_44, count: 121}
+- GLASSES: {pattern: ["15", "3"], count: 60}
+- EYE_MASK: {pattern: ["15", "3"], exclude: all_other_eyewear, count: null}
