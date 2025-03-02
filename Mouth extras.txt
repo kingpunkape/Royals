@@ -1,0 +1,7 @@
+
+## Mouth Extras (Only One at a Time)
+- JOINT: {pattern: "420", count: 110}
+- CIGARETTE: {pattern: ["9", "0", "2"], count: 811}
+- BUBBLEGUM: {pattern: ["2", "1", "7"], count: 660}
+- VAPE: {pattern: ["5", "3", "8"], count: 447}
+- SMOKE_PIPE: {pattern: "54", exclude: [joint, cigarette, bubblegum, vape], count: 168}
