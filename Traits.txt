@@ -1,0 +1,488 @@
+COLLECTION_NAME: The Royals NFT
+TOTAL_SUPPLY: 10080
+CREATOR: BTC and Digital Matter Theory (DMT)
+ARTIST: King (@kingpunkape)
+
+TECHNICAL_DETAILS:
+PATTERN: "cc" in Bitcoin block hexadecimal bits field
+FIRST_BLOCK: 38304
+FIRST_BLOCK_BITS: 0x1d008cc3
+FIRST_BLOCK_YEAR: 2010
+ROYALS_PER_PERIOD: 2016
+DIFFICULTY_PERIODS: 2010, 2011, 2012, 2017, 2022
+
+DISTRIBUTION:
+METHOD: DMT priv authority
+PLATFORM: Mscribe Block pad
+ACCESS: Whitelist only
+TYPE: PvP minting
+
+MARKETPLACES:
+- Mscribe (onchain rendering)
+- Magic Eden
+
+TRAIT_SYSTEM:
+PATTERN: 654321 (reverse order)
+DIGIT_1: Headgear type, Eye color
+DIGIT_2: Body type
+DIGIT_3: Headgear color
+DIGIT_4: Mouth color
+DIGIT_5: Nose color
+DIGIT_6: Background color
+
+SPECIAL_CONDITIONS:
+- Block divisibility affects traits
+- Pattern matching in block numbers
+- Trait stacking allowed in some categories
+- Cross-trait dependencies exist
+
+
+## Headgear by Last Digit
+
+LAST_DIGIT_0:
+- DMT_CROWN: {pattern: "742600", rarity: 1}
+- ICE_CROWN: {pattern: "742560", rarity: 1}
+- CROWN: {pattern: "2", rarity: 351}
+- HOODIE: {pattern: "6", exclude: "2", rarity: 136}
+- FADE_CUT: {pattern: "3", rarity: 272}
+- BINDI: {default: true, rarity: 247}
+
+LAST_DIGIT_1:
+- JEWELLED_CROWN: {pattern: ["743461", "39643"], rarity: 2}
+- DYNASTY_HAT: {pattern: ["6", "9"], rarity: 99}
+- HEADBAND: {pattern: "4", rarity: 519}
+- SMALL_BEANIE: {default: true, rarity: 389}
+
+LAST_DIGIT_2:
+- REGAL_CROWN: {pattern: ["38582", "192572"], rarity: 2}
+- SIDE_BOB: {pattern: ["9", "12"], rarity: 54}
+- BOWLER_HAT: {pattern: "3", rarity: 417}
+- BUCKET_CAP: {default: true, rarity: 535}
+
+LAST_DIGIT_3:
+- SUMMER_STRAW_HAT: {pattern: "5", rarity: 320}
+- VIKING_HAT: {pattern: "43", exclude: ["8", "6", "2"], rarity: 63}
+- ARMY_CAP: {default: true, rarity: 624}
+
+LAST_DIGIT_4:
+- LONG_HAIR: {pattern: "22", rarity: 28}
+- BAMBOO_HAT: {pattern: "6", rarity: 189}
+- UNDERCUT: {default: true, rarity: 791}
+
+LAST_DIGIT_5:
+- OPULENT_CROWN: {pattern: "449955", rarity: 2}
+- RAINBOW_MOHAWK: {pattern: "7", rarity: 13}
+- PEAK: {pattern: "4", rarity: 532}
+- MOHAWK: {default: true, rarity: 462}
+
+LAST_DIGIT_6:
+- TOP_HAT: {pattern: "7", rarity: 354}
+- FLIPPED_CAP: {default: true, rarity: 652}
+
+LAST_DIGIT_7:
+- BUCKET_HAT: {pattern: "2", rarity: 353}
+- TIARA: {pattern: "4", rarity: 348}
+- BANDANA: {default: true, rarity: 306}
+
+LAST_DIGIT_8:
+- SHORT_SPIKES: {pattern: "22", rarity: 28}
+- DEVIL_HORNS: {pattern: "5", rarity: 315}
+- SNAPBACK: {default: true, rarity: 666}
+
+LAST_DIGIT_9:
+- RAINBOW_DREADS: {pattern: "69", rarity: 112}
+- KEFFIYEH: {pattern: "6", rarity: 80}
+
+RARITY_RANKING:
+TOP_RARE:
+1. DMT_CROWN: 1
+2. ICE_CROWN: 1
+3. JEWELLED_CROWN: 2
+4. REGAL_CROWN: 2
+5. OPULENT_CROWN: 2
+
+TOP_COMMON:
+1. UNDERCUT: 791
+2. SNAPBACK: 666
+3. FLIPPED_CAP: 652
+4. ARMY_CAP: 624
+5. BUCKET_CAP: 535
+
+## Rarity Distribution
+
+### Most Rare Headgear
+1. DMT_CROWN (1)
+2. ICE_CROWN (1)
+3. JEWELLED_CROWN (2)
+4. REGAL_CROWN (2)
+5. OPULENT_CROWN (2)
+
+### Most Common Headgear
+1. UNDERCUT (791)
+2. SNAPBACK (666)
+3. FLIPPED_CAP (652)
+4. ARMY_CAP (624)
+5. BUCKET_CAP (535)
+
+
+EYE_COLOR_TRAITS:
+
+STANDARD_COLORS:
+LAST_DIGIT_0: {color: ORANGE, count: 1000}
+LAST_DIGIT_1: {color: CYAN, count: 998}
+LAST_DIGIT_2: {color: GREEN, count: 1001}
+LAST_DIGIT_3: {color: YELLOW, count: 1000}
+LAST_DIGIT_4: {color: GREY, count: 1001}
+LAST_DIGIT_5: {color: PURPLE, count: 1000}
+LAST_DIGIT_6: {color: BLUE, count: 997}
+LAST_DIGIT_7: {color: FAWN, count: 997}
+LAST_DIGIT_8: {color: PINK, count: 1001}
+LAST_DIGIT_9: {color: RED, count: 1002}
+
+SPECIAL_CASES:
+ALIEN_EYES:
+- COLOR: LIME_GREEN
+- TRIGGER: block_divisible_by: 111
+- EXCLUSIONS: [69, 16]
+- OVERRIDES: standard_color
+
+PUPIL_POSITIONS:
+RIGHT:
+- CONDITION: last_four_digits < 3700
+- COUNT: 6612
+
+LEFT:
+- CONDITION: last_four_digits > 4300
+- COUNT: 3264
+
+CROSS_EYED:
+- CONDITION: 3700 <= last_four_digits <= 4300
+- COUNT: 204
+
+DISTRIBUTION_ANALYSIS:
+- MOST_COMMON: RED (1002)
+- LEAST_COMMON: [BLUE, FAWN] (997)
+- AVERAGE_COUNT: 1000
+- VARIANCE: 5
+
+BODY_TRAITS:
+
+STANDARD_COLORS:
+LAST_DIGIT_0: {color: ORANGE, count: 912}
+LAST_DIGIT_1: {color: CYAN, count: 883}
+LAST_DIGIT_2: {color: GREEN, count: 809}
+LAST_DIGIT_3: {color: YELLOW, count: 782}
+LAST_DIGIT_4: {color: GREY, count: 900}
+LAST_DIGIT_5: {color: PURPLE, count: 927}
+LAST_DIGIT_6: {color: BLUE, count: 813}
+LAST_DIGIT_7: {color: FAWN, count: 947}
+LAST_DIGIT_8: {color: PINK, count: 908}
+LAST_DIGIT_9: {color: RED, count: 939}
+
+RARE_BODIES:
+DIVISIBILITY_BASED:
+- ALIEN: {
+    trigger: divisible_by_111,
+    exclude: divisible_by_69,
+    count: 75
+  }
+- DARK_SPIRIT: {
+    trigger: divisible_by_69,
+    count: 138
+  }
+- SKELLY: {
+    trigger: divisible_by_16,
+    count: 602
+  }
+
+PATTERN_BASED:
+- CLOWN: {
+    trigger: contains_333,
+    count: 24
+  }
+- RARE_PEPE: {
+    trigger: second_last_digit_2,
+    additional: [contains_5, contains_3],
+    count: 102
+  }
+- GOLD: {
+    trigger: second_last_digit_3,
+    additional: [contains_7, contains_9],
+    count: 126
+  }
+- ZOMBIE: {
+    trigger: second_last_digit_1,
+    additional: [contains_2, contains_8],
+    count: 54
+  }
+
+RARITY_ANALYSIS:
+STANDARD_BODIES:
+- MOST_COMMON: {type: PURPLE, count: 927}
+- LEAST_COMMON: {type: YELLOW, count: 782}
+
+RARE_BODIES:
+- MOST_COMMON: {type: SKELLY, count: 602}
+- LEAST_COMMON: {type: CLOWN, count: 24}
+
+SPECIAL_RULES:
+- COMBINATIONS_ALLOWED: true
+- OVERRIDE_STANDARD: true
+
+HEADGEAR_COLOR_TRAITS:
+
+STANDARD_COLORS:
+DIGIT_0: {color: ORANGE, count: 1000}
+DIGIT_1: {color: CYAN, count: 1000}
+DIGIT_2: {color: GREEN, count: 998}
+DIGIT_3: {color: YELLOW, count: 1005}
+DIGIT_4: {color: GREY, count: 999}
+DIGIT_5: {color: PURPLE, count: 1027}
+DIGIT_6: {color: BLUE, count: 998}
+DIGIT_7: {color: FAWN, count: 1000}
+DIGIT_8: {color: PINK, count: 1027}
+DIGIT_9: {color: RED, count: null}
+
+RARITY_ANALYSIS:
+MOST_COMMON:
+- TYPE: [PURPLE, PINK]
+- COUNT: 1027
+
+LEAST_COMMON:
+- TYPE: [GREEN, BLUE]
+- COUNT: 998
+
+SPECIAL_RULES:
+- COLOR_INDEPENDENCE: true
+- EXCEPTIONS: [RAINBOW_MOHAWK]
+- DISTRIBUTION: even
+- VARIANCE: minimal
+- APPLIES_TO: [CROWNS, HATS, HAIRSTYLES]
+
+
+MOUTH_TRAITS:
+
+STANDARD_COLORS:
+DIGIT_0: {color: ORANGE, count: 2193}
+DIGIT_1: {color: CYAN, count: 1170}
+DIGIT_2: {color: GREEN, count: 1962}
+DIGIT_3: {color: YELLOW, count: 1436}
+DIGIT_4: {color: GREY, count: null}
+DIGIT_5: {color: PURPLE, count: null}
+DIGIT_6: {color: BLUE, count: null}
+DIGIT_7: {color: WHITE, count: null}
+DIGIT_8: {color: PINK, count: 827}
+DIGIT_9: {color: RED, count: 2272}
+
+SPECIAL_PATTERNS:
+- RAINBOW: {
+    trigger: contains_999,
+    count: 34
+  }
+- GLITCH: {
+    trigger: contains_9999,
+    count: 3,
+    animated: true
+  }
+- BLACK: {
+    trigger: contains_499,
+    count: 100
+  }
+- BLACK_AND_WHITE: {
+    trigger: [contains_99, contains_2],
+    count: 83
+  }
+
+RARITY_ANALYSIS:
+STANDARD_COLORS:
+- MOST_COMMON: {type: RED, count: 2272}
+- SECOND_MOST_COMMON: {type: ORANGE, count: 2193}
+
+SPECIAL_PATTERNS:
+- RAREST: {type: GLITCH, count: 3}
+
+DISTRIBUTION_NOTES:
+- DISTRIBUTION_TYPE: highly_uneven
+- UNRELEASED_COLORS: [GREY, PURPLE, BLUE, WHITE]
+
+
+BACKGROUND_TRAITS:
+
+STANDARD_BACKGROUNDS:
+- FIVE_DIGIT: {color: ORANGE, count: 1964}
+- DIGIT_1: {color: CYAN, count: 3903}
+- DIGIT_4: {color: BLUE, count: 1963}
+- DIGIT_7: {color: GREY, count: 1933}
+- OTHER_DIGITS: {status: not_occurred}
+
+SPECIAL_PATTERNS:
+- DMT: {
+    trigger: divisible_by_316,
+    exclude: [divisible_by_12, divisible_by_11],
+    count: 21
+  }
+- HEAVEN: {
+    trigger: contains_8888,
+    count: 2
+  }
+- DARK_GREY: {
+    trigger: contains_five_digit_palindrome,
+    count: 181
+  }
+- BLACK: {
+    trigger: contains_six_digit_palindrome,
+    count: 9
+  }
+- BLUEBLOOD: {
+    trigger: second_last_digit_6,
+    additional: [contains_3, contains_2],
+    count: 94
+  }
+
+RARITY_ANALYSIS:
+STANDARD:
+- MOST_COMMON: {type: CYAN, count: 3903}
+- DEFAULT_FIVE_DIGIT: {type: ORANGE, count: 1964}
+- COMMON: [
+    {type: BLUE, count: 1963},
+    {type: GREY, count: 1933}
+  ]
+
+SPECIAL:
+- RAREST: {type: HEAVEN, count: 2}
+- SECOND_RAREST: {type: BLACK, count: 9}
+
+SPECIAL_RULES:
+- FIVE_DIGIT_DEFAULT: true
+- UNIQUE_COLOR_MAPPING: true
+- GHOST_CONDITION: background_matches_body_color
+
+
+# The Royals NFT Special Traits
+
+## Special Traits Categories
+Special traits provide additional rarity and visual variety beyond core traits.
+
+## Extras (Multiple Can Stack)
+- PIRATE_TOOTH: {pattern: "99999", count: null}
+- GOLD_TOOTH: {pattern: ["18", "2"], additional: third_last_digit_1, count: 76}
+- PIMPLE: {pattern: "345", count: 30}
+- TATTOO: {pattern: "666", count: 10}
+- EYELASHES: {trigger: divisible_by_101, count: 100}
+- HALO: {pattern: ["1", "7", "3", "0"], additional: contains_8, exclude: ["6", "2"], count: 656}
+- NOSE_STUD: {pattern: ["1", "7", "0", "9"], count: 483}
+- MOLE: {pattern: "21", count: 399}
+- TOP_EAR_PIERCING: {pattern: "123", count: 20}
+- TEAR: {trigger: contains_three_digit_fibonacci, count: 120}
+- EYEBROW_PIERCING: {trigger: contains_four_digit_fibonacci, count: 3}
+- DIAMOND_TOOTH_BLING: {trigger: contains_five_digit_fibonacci, count: 10}
+- EYE_GLOW: {trigger: contains_four_digit_perfect_square, count: 333}
+- GOLD_GRILLS: {trigger: contains_five_digit_perfect_square, count: 48}
+- EARBUD: {trigger: contains_six_digit_perfect_square, count: 7}
+- DIAMOND_EARRING: {pattern: ["0", "5"], count: 2111}
+- GOLD_EARRING: {pattern: "0", exclude: diamond_earring_condition, count: 2989}
+- RAINBOW_CHEEK: {pattern: "00000", count: null}
+- ORDINAL_CHEEK: {pattern: "0000", count: 3}
+- BRACES: {pattern: "000", count: 22}
+- SQUARE_CHEEK: {pattern: "00", count: 283}
+- LASER: {condition: pupil_position_right, pattern: "07", count: 345}
+- FANGS: {condition: exactly_three_7_digits, count: 62}
+
+## Neck Traits (Can Stack in Specific Ways)
+- RED_BOWTIE: {pattern: "21", count: 399}
+- BLACK_BOWTIE: {pattern: "78", count: 200}
+- SPIKED_CHOKER: {trigger: divisible_by_15, count: 671}
+- GOLD_CHOKER: {trigger: divisible_by_13, exclude: divisible_by_15, count: 725}
+- BLACK_CHOKER: {trigger: divisible_by_12, exclude: [divisible_by_15, divisible_by_13], count: 619}
+- RAINBOW_CHOKER: {trigger: divisible_by_14, exclude: [divisible_by_15, divisible_by_13, divisible_by_12], count: 530}
+- GOLD_CHAIN: {trigger: divisible_by_17, count: 593}
+- SILVER_CHAIN: {trigger: divisible_by_19, count: 499}
+
+## Mouth Extras (Only One at a Time)
+- JOINT: {pattern: "420", count: 110}
+- CIGARETTE: {pattern: ["9", "0", "2"], count: 811}
+- BUBBLEGUM: {pattern: ["2", "1", "7"], count: 660}
+- VAPE: {pattern: ["5", "3", "8"], count: 447}
+- SMOKE_PIPE: {pattern: "54", exclude: [joint, cigarette, bubblegum, vape], count: 168}
+
+## Sweaters (Only One at a Time)
+- VERTICAL_RAINBOW: {pattern: "11111", count: null}
+- VERTICAL_BW: {pattern: "1111", exclude: "11111", count: 1}
+- RAINBOW: {pattern: "111", exclude: ["11111", "1111"], count: 18}
+- BW: {pattern: ["11", "2"], exclude: ["11111", "1111", "111"], count: 317}
+
+## Facial Hair (Only One at a Time)
+- MUSTACHE: {pattern: ["18", "3"], count: 96}
+- BEARD_SHADOW: {pattern: ["63", "1"], count: 97}
+- BIG_BEARD: {pattern: ["71", "3"], count: 71}
+- GOATEE: {pattern: ["12", "4"], count: 202}
+- BEARD: {pattern: ["1", "15"], count: 357}
+- VENDETTA: {condition: three_5_digits, exclude: [mustache, beard_shadow, big_beard, goatee, beard], count: 36}
+
+## Eyewear (Only One at a Time)
+- SUNGLASSES: {trigger: divisible_by_12, exclude: divisible_by_56, count: 768}
+- COLORED_SUNGLASSES: {trigger: divisible_by_220, count: 30}
+- THREE_D_GLASSES: {trigger: divisible_by_33, count: 233}
+- RED_NOUN_GLASSES: {trigger: divisible_by_35, count: 263}
+- BLUE_NOUN_GLASSES: {trigger: divisible_by_37, count: 232}
+- DMT_GLASSES: {trigger: divisible_by_39, count: 171}
+- RAINBOW_SUNGLASSES: {trigger: divisible_by_31, count: 267}
+- EYE_PATCH: {trigger: divisible_by_32, count: 188}
+- BUG_GLASSES: {trigger: divisible_by_34, count: 204}
+- WHITE_SUNGLASSES: {trigger: divisible_by_40, count: 84}
+- STRIPED_GLASSES: {trigger: divisible_by_38, count: 165}
+- VR_HEADSET: {trigger: divisible_by_44, count: 121}
+- GLASSES: {pattern: ["15", "3"], count: 60}
+- EYE_MASK: {pattern: ["15", "3"], exclude: all_other_eyewear, count: null}
+
+## Stacking Rules
+- EXTRAS: multiple_allowed
+- NECK_TRAITS: one_per_type
+- OTHER_CATEGORIES: one_per_category
+- HIERARCHY: most_common_first
+
+## Rarity Notes
+- Rarest special traits: EYEBROW_PIERCING (3), VERTICAL_BW_SWEATER (1), GLITCH (3), ORDINAL_CHEEK (3)
+- Most common special traits: GOLD_EARRING (2989), DIAMOND_EARRING (2111)
+- Total Royals supply: 10,080 at minting time
+
+NOSE_TRAITS:
+
+STANDARD_COLORS:
+DIGIT_0: {color: ORANGE, count: 1055}
+DIGIT_1: {color: CYAN, count: 817}
+DIGIT_2: {color: GREEN, count: null}
+DIGIT_3: {color: YELLOW, count: 1574}
+DIGIT_4: {color: GREY, count: 2561}
+DIGIT_5: {color: PURPLE, count: 1470}
+DIGIT_6: {color: BLUE, count: null}
+DIGIT_7: {color: FAWN, count: null}
+DIGIT_8: {color: PINK, count: null}
+DIGIT_9: {color: RED, count: 1862}
+
+SPECIAL_CASES:
+- ALIEN_NOSE: {
+    trigger: body_type_alien,
+    count: 83
+  }
+- SKELLY_NOSE: {
+    trigger: body_type_skelly,
+    count: null
+  }
+
+RARITY_ANALYSIS:
+STANDARD_COLORS:
+- MOST_COMMON: {type: GREY, count: 2561}
+- SECOND_MOST: {type: RED, count: 1862}
+- THIRD_MOST: {type: YELLOW, count: 1574}
+- LEAST_COMMON: {type: CYAN, count: 817}
+- UNRELEASED: [GREEN, BLUE, FAWN, PINK]
+
+DISTRIBUTION_NOTES:
+- DISTRIBUTION_TYPE: highly_uneven
+- MAX_RATIO: 3.13 (GREY vs CYAN)
+- CROSS_DEPENDENCIES: [ALIEN_BODY, SKELLY_BODY]
+- INDEPENDENCE: standard_colors_independent_of_special_cases
+
+
+
