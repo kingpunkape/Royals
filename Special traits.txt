@@ -1,0 +1,29 @@
+# The Royals NFT Special Traits
+
+## Special Traits Categories
+Special traits provide additional rarity and visual variety beyond core traits.
+
+## Extras (Multiple Can Stack)
+- PIRATE_TOOTH: {pattern: "99999", count: null}
+- GOLD_TOOTH: {pattern: ["18", "2"], additional: third_last_digit_1, count: 76}
+- PIMPLE: {pattern: "345", count: 30}
+- TATTOO: {pattern: "666", count: 10}
+- EYELASHES: {trigger: divisible_by_101, count: 100}
+- HALO: {pattern: ["1", "7", "3", "0"], additional: contains_8, exclude: ["6", "2"], count: 656}
+- NOSE_STUD: {pattern: ["1", "7", "0", "9"], count: 483}
+- MOLE: {pattern: "21", count: 399}
+- TOP_EAR_PIERCING: {pattern: "123", count: 20}
+- TEAR: {trigger: contains_three_digit_fibonacci, count: 120}
+- EYEBROW_PIERCING: {trigger: contains_four_digit_fibonacci, count: 3}
+- DIAMOND_TOOTH_BLING: {trigger: contains_five_digit_fibonacci, count: 10}
+- EYE_GLOW: {trigger: contains_four_digit_perfect_square, count: 333}
+- GOLD_GRILLS: {trigger: contains_five_digit_perfect_square, count: 48}
+- EARBUD: {trigger: contains_six_digit_perfect_square, count: 7}
+- DIAMOND_EARRING: {pattern: ["0", "5"], count: 2111}
+- GOLD_EARRING: {pattern: "0", exclude: diamond_earring_condition, count: 2989}
+- RAINBOW_CHEEK: {pattern: "00000", count: null}
+- ORDINAL_CHEEK: {pattern: "0000", count: 3}
+- BRACES: {pattern: "000", count: 22}
+- SQUARE_CHEEK: {pattern: "00", count: 283}
+- LASER: {condition: pupil_position_right, pattern: "07", count: 345}
+- FANGS: {condition: exactly_three_7_digits, count: 62}
