@@ -1,0 +1,50 @@
+BACKGROUND_TRAITS:
+
+STANDARD_BACKGROUNDS:
+- FIVE_DIGIT: {color: ORANGE, count: 1964}
+- DIGIT_1: {color: CYAN, count: 3903}
+- DIGIT_4: {color: BLUE, count: 1963}
+- DIGIT_7: {color: GREY, count: 1933}
+- OTHER_DIGITS: {status: not_occurred}
+
+SPECIAL_PATTERNS:
+- DMT: {
+    trigger: divisible_by_316,
+    exclude: [divisible_by_12, divisible_by_11],
+    count: 21
+  }
+- HEAVEN: {
+    trigger: contains_8888,
+    count: 2
+  }
+- DARK_GREY: {
+    trigger: contains_five_digit_palindrome,
+    count: 181
+  }
+- BLACK: {
+    trigger: contains_six_digit_palindrome,
+    count: 9
+  }
+- BLUEBLOOD: {
+    trigger: second_last_digit_6,
+    additional: [contains_3, contains_2],
+    count: 94
+  }
+
+RARITY_ANALYSIS:
+STANDARD:
+- MOST_COMMON: {type: CYAN, count: 3903}
+- DEFAULT_FIVE_DIGIT: {type: ORANGE, count: 1964}
+- COMMON: [
+    {type: BLUE, count: 1963},
+    {type: GREY, count: 1933}
+  ]
+
+SPECIAL:
+- RAREST: {type: HEAVEN, count: 2}
+- SECOND_RAREST: {type: BLACK, count: 9}
+
+SPECIAL_RULES:
+- FIVE_DIGIT_DEFAULT: true
+- UNIQUE_COLOR_MAPPING: true
+- GHOST_CONDITION: background_matches_body_color
