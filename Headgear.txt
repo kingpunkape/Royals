@@ -1,0 +1,72 @@
+## Headgear by Last Digit
+
+LAST_DIGIT_0:
+- DMT_CROWN: {pattern: "742600", rarity: 1}
+- ICE_CROWN: {pattern: "742560", rarity: 1}
+- CROWN: {pattern: "2", rarity: 351}
+- HOODIE: {pattern: "6", exclude: "2", rarity: 136}
+- FADE_CUT: {pattern: "3", rarity: 272}
+- BINDI: {default: true, rarity: 247}
+
+LAST_DIGIT_1:
+- JEWELLED_CROWN: {pattern: ["743461", "39643"], rarity: 2}
+- DYNASTY_HAT: {pattern: ["6", "9"], rarity: 99}
+- HEADBAND: {pattern: "4", rarity: 519}
+- SMALL_BEANIE: {default: true, rarity: 389}
+
+LAST_DIGIT_2:
+- REGAL_CROWN: {pattern: ["38582", "192572"], rarity: 2}
+- SIDE_BOB: {pattern: ["9", "12"], rarity: 54}
+- BOWLER_HAT: {pattern: "3", rarity: 417}
+- BUCKET_CAP: {default: true, rarity: 535}
+
+LAST_DIGIT_3:
+- SUMMER_STRAW_HAT: {pattern: "5", rarity: 320}
+- VIKING_HAT: {pattern: "43", exclude: ["8", "6", "2"], rarity: 63}
+- ARMY_CAP: {default: true, rarity: 624}
+
+LAST_DIGIT_4:
+- LONG_HAIR: {pattern: "22", rarity: 28}
+- BAMBOO_HAT: {pattern: "6", rarity: 189}
+- UNDERCUT: {default: true, rarity: 791}
+
+LAST_DIGIT_5:
+- OPULENT_CROWN: {pattern: "449955", rarity: 2}
+- RAINBOW_MOHAWK: {pattern: "7", rarity: 13}
+- PEAK: {pattern: "4", rarity: 532}
+- MOHAWK: {default: true, rarity: 462}
+
+LAST_DIGIT_6:
+- TOP_HAT: {pattern: "7", rarity: 354}
+- FLIPPED_CAP: {default: true, rarity: 652}
+
+LAST_DIGIT_7:
+- BUCKET_HAT: {pattern: "2", rarity: 353}
+- TIARA: {pattern: "4", rarity: 348}
+- BANDANA: {default: true, rarity: 306}
+
+LAST_DIGIT_8:
+- SHORT_SPIKES: {pattern: "22", rarity: 28}
+- DEVIL_HORNS: {pattern: "5", rarity: 315}
+- SNAPBACK: {default: true, rarity: 666}
+
+LAST_DIGIT_9:
+- RAINBOW_DREADS: {pattern: "69", rarity: 112}
+- KEFFIYEH: {pattern: "6", rarity: 80}
+
+RARITY_RANKING:
+TOP_RARE:
+1. DMT_CROWN: 1
+2. ICE_CROWN: 1
+3. JEWELLED_CROWN: 2
+4. REGAL_CROWN: 2
+5. OPULENT_CROWN: 2
+
+TOP_COMMON:
+1. UNDERCUT: 791
+2. SNAPBACK: 666
+3. FLIPPED_CAP: 652
+4. ARMY_CAP: 624
+5. BUCKET_CAP: 535
+
+
