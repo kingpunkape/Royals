@@ -1,3 +1,43 @@
+The Royals NFT - 
+Basic Information
+
+Total supply: 10,080 unique art collectibles
+Created by: BTC and powered by Digital Matter Theory (DMT)
+Artist: King or @kingpunkape on X 
+Each Royal's traits determined by patterns in Bitcoin blockchain
+Not static PNGs, but code-generated art (p5js) linked to specific Bitcoin blocks
+New Royals may appear when pattern conditions occur in future blocks
+
+Technical Foundation
+
+Generation based on "cc" pattern in hexadecimal bits field of Bitcoin blocks
+First occurrence: 2010 on block 38304 (bits field "0x1d008cc3")
+Bits field adjusts every 2016 blocks (approximately every two weeks)
+Each difficulty period with "cc" pattern produces 2016 Royals
+Five difficulty periods so far: 2010, 2011, 2012, 2017, 2022
+
+Distribution Model
+
+First fair and wide distribution mint using DMT's priv authority
+Created by Trac team
+PvP minting environment on Mscribe's interactive Block pad
+Whitelist-only access prevented front-running
+First of its kind fair mint with wide distribution
+
+Marketplaces
+
+Available on Mscribe (fully onchain rendering)
+Available on Magic Eden
+All listings on both marketplaces validated
+
+Vision and Purpose
+
+Aims to inspire movement pushing boundaries of Crypto Art
+Goal to become iconic example of art on Bitcoin
+Aspires to set new standard for onchain digital collectibles
+Positioned at intersection of art and technology
+
+
 # The Royals NFT Headgear Traits Guide
 
 ## Basic Mechanics
@@ -85,3 +125,338 @@
 - The system creates a balanced rarity distribution with few ultra-rare items
 
 This trait system follows a classic NFT rarity pyramid structure with approximately 40 different headgear types.
+
+# The Royals NFT Eye Color Traits
+
+Based on the documentation provided, here's a comprehensive overview of the eye color traits in The Royals NFT collection:
+
+## Eye Color Mechanics
+
+- Eye color is determined by the **last digit** of the block number (following the 654321 pattern)
+- There are 10 standard eye colors (one for each possible last digit 0-9)
+- Eye colors have a fairly even distribution across the collection
+- Aliens are the only exception, having a special lime green eye color regardless of the last digit
+
+## Eye Colors by Last Digit
+
+| Last Digit | Eye Color | Rarity Count |
+|------------|-----------|--------------|
+| 0 | Orange | 1000 |
+| 1 | Cyan | 998 |
+| 2 | Green | 1001 |
+| 3 | Yellow | 1000 |
+| 4 | Grey | 1001 |
+| 5 | Purple | 1000 |
+| 6 | Blue | 997 |
+| 7 | Fawn | 997 |
+| 8 | Pink | 1001 |
+| 9 | Red | 1002 |
+
+## Distribution Analysis
+
+- The eye color distribution is remarkably balanced compared to other traits
+- All standard colors appear approximately 1,000 times in the collection
+- The slight variations are likely due to the distribution of block number endings
+- Red (last digit 9) appears most frequently with 1,002 occurrences
+- Blue and Fawn (last digits 6 and 7) are the least common with 997 occurrences each
+
+## Special Cases
+
+- Aliens have a lime green eye color that overrides the standard eye color assignment
+- This is the only documented exception to the last digit rule for eye colors
+- The alien trait is determined by divisibility (block number divisible by 111 but not by 69 and 16)
+
+This trait system creates a very even distribution across eye colors, unlike many other traits that have significant rarity differences.
+
+# The Royals NFT Body Traits
+
+## Body Mechanics
+- Body traits determined by second-to-last digit of block number (654321 pattern)
+- 10 standard body colors (one per second-to-last digit 0-9)
+- Rare body types override standard colors based on specific conditions
+- Some rare types can combine (e.g., "Dark Spirit Zombie")
+
+## Standard Body Colors
+- Digit 0: Orange (912 occurrences)
+- Digit 1: Cyan (883 occurrences)
+- Digit 2: Green (809 occurrences)
+- Digit 3: Yellow (782 occurrences)
+- Digit 4: Grey (900 occurrences)
+- Digit 5: Purple (927 occurrences)
+- Digit 6: Blue (813 occurrences)
+- Digit 7: Fawn (947 occurrences)
+- Digit 8: Pink (908 occurrences)
+- Digit 9: Red (939 occurrences)
+
+## Divisibility-Based Rare Bodies
+- Alien: Block divisible by 111 but not by 69 and 16 (75 occurrences)
+- Dark Spirit: Block divisible by 69 (138 occurrences)
+- Skelly: Block divisible by 16 (602 occurrences)
+
+## Pattern-Based Rare Bodies
+- Clown: Block contains "333" (24 occurrences)
+- Rare Pepe: Second-last digit is 2 + block includes "5" and "3" (102 occurrences)
+- Gold: Second-last digit is 3 + block includes "7" and "9" (126 occurrences)
+- Zombie: Second-last digit is 1 + block includes "2" and "8" (54 occurrences)
+
+## Rarity Distribution
+- Most common standard: Purple (927)
+- Least common standard: Yellow (782)
+- Most common special: Skelly (602)
+- Rarest body type: Clown (24)
+
+## Special Properties
+- Rare types can combine (meeting multiple conditions simultaneously)
+
+
+# The Royals NFT Headgear Color Traits
+
+## Headgear Color Mechanics
+- Determined by third-to-last digit of reversed block number (654321 pattern)
+- 10 standard headgear colors (one per digit 0-9)
+- Colors distributed relatively evenly across collection
+
+## Standard Headgear Colors
+- Digit 0: Orange (1000 occurrences)
+- Digit 1: Cyan (1000 occurrences)
+- Digit 2: Green (998 occurrences)
+- Digit 3: Yellow (1005 occurrences)
+- Digit 4: Grey (999 occurrences)
+- Digit 5: Purple (1027 occurrences)
+- Digit 6: Blue (998 occurrences)
+- Digit 7: Fawn (1000 occurrences)
+- Digit 8: Pink (1027 occurrences)
+- Digit 9: Red (not explicitly stated in data)
+
+## Rarity Distribution
+- Most common: Purple and Pink (tied at 1027 occurrences each)
+- Least common: Green and Blue (tied at 998 occurrences each)
+- Nearly perfect distribution with minimal variance
+
+## Important Notes
+- Headgear color is independent of headgear type with Rainbow Mohawk the ONLY exception.
+- Same color system applies to all headgear types (crowns, hats, hairstyles, etc.)
+- Color adds visual variety to same headgear types
+
+
+# The Royals NFT Mouth Traits
+
+## Mouth Mechanics
+- Determined by fourth-to-last digit of reversed block number (654321 pattern)
+- 10 standard mouth colors (one per digit 0-9)
+- Special mouth variants activated by specific block number patterns
+
+## Standard Mouth Colors
+- Digit 0: Orange (2193 occurrences)
+- Digit 1: Cyan (1170 occurrences)
+- Digit 2: Green (1962 occurrences)
+- Digit 3: Yellow (1436 occurrences)
+- Digit 4: Grey (frequency not specified)
+- Digit 5: Purple (frequency not specified)
+- Digit 6: Blue (frequency not specified)
+- Digit 7: White (frequency not specified)
+- Digit 8: Pink (827 occurrences)
+- Digit 9: Red (2272 occurrences)
+
+## Special Pattern-Based Mouths
+- Rainbow: Block contains "999" (34 occurrences)
+- Glitch: Block contains "9999" (3 occurrences)
+- Black: Block contains "499" (100 occurrences)
+- Black & White: Block contains "99" and "2" (83 occurrences)
+
+## Rarity Distribution
+- Most common standard: Red (2272 occurrences)
+- Second most common: Orange (2193 occurrences)
+- Rarest special: Glitch (3 occurrences)
+- Highly uneven distribution compared to other traits
+
+
+## Special Notes
+- The Glitch mouth trait is animated!
+- Some mouth colours have not occured yet in the current block numbers
+
+# The Royals NFT Nose Traits
+
+## Nose Mechanics
+- Determined by fifth-to-last digit of reversed block number (654321 pattern)
+- 10 standard nose colors (one per digit 0-9)
+- Special cases for Alien and Skelly body types
+
+## Standard Nose Colors
+- Digit 0: Orange (1055 occurrences)
+- Digit 1: Cyan (817 occurrences)
+- Digit 2: Green (frequency not specified)
+- Digit 3: Yellow (1574 occurrences)
+- Digit 4: Grey (2561 occurrences)
+- Digit 5: Purple (1470 occurrences)
+- Digit 6: Blue (frequency not specified)
+- Digit 7: Fawn (frequency not specified)
+- Digit 8: Pink (frequency not specified)
+- Digit 9: Red (1862 occurrences)
+
+## Special Case Nose
+- Alien: Special nose appears with Alien body type (83 occurrences)
+- Skelly Nose: Appears with Skelly body
+
+## Rarity Distribution
+- Most common standard: Grey (2561 occurrences)
+- Second most common: Red (1862 occurrences)
+- Third most common: Yellow (1574 occurrences)
+- Least common (with data): Cyan (817 occurrences)
+- Several colors have not occured yet
+
+## Distribution Notes
+- Highly uneven distribution among standard nose types
+- Grey noses appear more than 3 times as frequently as Cyan noses
+
+
+## Integration Notes
+- Nose trait interacts with body trait (special cases for Alien and Skelly)
+- One of the few traits with cross-trait dependencies
+- Standard nose color system applies independently of special cases
+- Nose traits provide subtle variation in facial appearance
+
+# The Royals NFT Background Traits
+
+## Background Mechanics
+- Determined by sixth-to-last digit of block number (654321 pattern)
+- Default background (Orange) for five-digit Royals with no sixth digit
+- Custom color chart different from other traits: 
+
+## Standard Backgrounds
+- Five-digit Royal: Orange (1964 occurrences)
+- Digit 1: Cyan (3903 occurrences)
+- Digit 4: Blue (1963 occurrences)
+- Digit 7: Grey (1933 occurrences)
+- Other background colors have not occured yet
+
+## Special Pattern-Based Backgrounds
+- DMT: If the block number is divisible by 316 but not divisible by 12 and 11 (21 occurrences))
+- Heaven: Block contains "8888" (2 occurrences)
+- Dark Grey: Block contains five-digit palindrome (181 occurrences)
+- Black: Block contains six-digit palindrome (9 occurrences)
+- Blueblood: If the second last digit is 6 and the block number string includes both "3" and "2".(94 occrrences)
+
+
+## Rarity Distribution
+- Most common: Cyan (3903 occurrences)
+- Default for five-digit Royals: Orange (1964 occurrences)
+- Common standards: Blue (1963) and Grey (1933)
+- Rarest: Heaven (2 occurrences)
+- Second rarest: Black (9 occurrences)
+
+## Special Notes
+- Background uses unique color mapping compared to other traits
+- Five-digit Royals (no sixth digit) default to Orange background
+- Special backgrounds are particularly rare, with Heaven appearing only twice
+- If a background and the body are the same color then that is a secret "ghost" Royal
+
+
+# The Royals NFT Pupil Position Traits
+
+## Pupil Position Mechanics
+- Based on last four digits of block number
+- Three possible positions determined by specific numeric ranges
+
+## Pupil Positions
+- Right: Last four digits < 3700 (6612 occurrences)
+- Left: Last four digits > 4300 (3264 occurrences)
+- Cross-Eyed: Last four digits between 3700-4300 inclusive (204 occurrences)
+
+## Rarity Distribution
+- Most common: Right (6612 occurrences, 65.6%)
+- Second most common: Left (3264 occurrences, 32.4%)
+- Rare: Cross-Eyed (204 occurrences, 2.0%)
+
+## Important Notes
+- Pupil position affects certain other traits (e.g., Laser trait requires "right" pupil position)
+
+# The Royals NFT Special Traits
+
+## Special Traits Categories
+Special traits provide additional rarity and visual variety beyond core traits.
+
+## Extras (Multiple Can Stack)
+- Pirate Tooth: Block contains "99999" (frequency not specified)
+- Gold Tooth: Block contains "18" and "2" + third-last digit "1" (76 occurrences)
+- Pimple: Block contains "345" (30 occurrences)
+- Tattoo: Block contains "666" (10 occurrences)
+- Eyelashes: Block divisible by 101 (100 occurrences)
+- Halo: Last digit ends in [1,7,3,0] + contains "8" but not "6" or "2" (656 occurrences)
+- Nose Stud: Block contains all of "1", "7", "0", "9" (483 occurrences)
+- Mole: Block contains "21" (399 occurrences)
+- Top Ear Piercing: Block contains "123" (20 occurrences)
+- Tear: Block contains three-digit Fibonacci number (120 occurrences)
+- Eyebrow Piercing: Block contains four-digit Fibonacci number (3 occurrences)
+- Diamond Tooth Bling: Block contains five-digit Fibonacci number (10 occurrences)
+- Eye Glow: Block contains four-digit perfect square (333 occurrences)
+- Gold Grills: Block contains five-digit perfect square (48 occurrences)
+- Earbud: Block contains six-digit perfect square (7 occurrences)
+- Diamond Earring: Block contains "0" and "5" (2111 occurrences)
+- Gold Earring: Block contains "0" without Diamond Earring condition (2989 occurrences)
+- Rainbow Cheek: Block contains "00000" (frequency not specified)
+- Ordinal Cheek: Block contains "0000" (3 occurrences)
+- Braces: Block contains "000" (22 occurrences)
+- Square Cheek: Block contains "00" (283 occurrences)
+- Laser: Pupil position "right" + block contains "07" (345 occurrences)
+- Fangs: Exactly three "7" digits in block number (62 occurrences)
+
+## Neck Traits (Can Stack in Specific Ways)
+- Red Bowtie: Block contains "21" (399 occurrences)
+- Black Bowtie: Block contains "78" (200 occurrences)
+- Spiked Choker: Block divisible by 15 (671 occurrences)
+- Gold Choker: Block divisible by 13 and not by 15 (725 occurrences)
+- Black Choker: Block divisible by 12 and not by 15 or 13 (619 occurrences)
+- Rainbow Choker: Block divisible by 14 and not by 15, 13, or 12 (530 occurrences)
+- Gold Chain: Block divisible by 17 (593 occurrences)
+- Silver Chain: Block number is divisible by 19. (499 occurrences)
+
+## Mouth Extras (Only One at a Time)
+- Joint: Block contains "420" (110 occurrences)
+- Cigarette: Block contains all of "9", "0", "2" (811 occurrences)
+- Bubblegum: Block contains all of "2", "1", "7" (660 occurrences)
+- Vape: Block contains all of "5", "3", "8" (447 occurrences)
+- Smoke Pipe: If the block number string contains "54" and none of the above conditions are met (168 occurrences)
+
+## Sweaters (Only One at a Time)
+- Vertical Rainbow Sweater: Block contains "11111" (frequency not specified)
+- Vertical B&W Sweater: Block contains "1111" but not "11111" (1 occurrence)
+- Rainbow Sweater: Block contains "111" but not "11111" or "1111" (18 occurrences)
+- B&W Sweater: Block contains "11" but not "11111", "1111", or "111" and includes a 2 (317 occurrences)
+
+## Facial Hair (Only One at a Time)
+- Mustache: Block contains both "18" and "3" (96 occurrences)
+- Beard Shadow: Block contains both "63" and "1" (97 occurrences)
+- Big Beard: Block contains both "71" and "3" (71 occurrences)
+- Goatee: Block contains both "12" and "4" (202 occurrences)
+- Beard: Block contains both "1" and "15" (357 occurrences)
+- Vendetta: Block string contains at least three "5" characters and none of the above conditions are met (36 occurences)
+
+## Eyewear (Only One at a Time)
+- Sunglasses: Block divisible by 12 and not by 56 (768 occurrences)
+- Colored Sunglasses: Block divisible by 220 (30 occurrences)
+- 3D Glasses: Block divisible by 33 (233 occurrences)
+- Red Noun Glasses: Block divisible by 35 (263 occurrences)
+- Blue Noun Glasses: Block divisible by 37 (232 occurrences)
+- DMT Glasses: Block divisible by 39 (171 occurrences)
+- Rainbow Sunglasses: Block divisible by 31 (267 occurrences)
+- Eye Patch: Block divisible by 32 (188 occurrences)
+- Bug Glasses: Block divisible by 34 (204 occurrences)
+- White Sunglasses: Block divisible by 40 (84 occurrences)
+- Striped Glasses: Block divisible by 38 (165 occurrences)
+- VR Headset: Block divisible by 44 (121 occurrences)
+- Glasses: Block contains "15" or "3" (60 occurrences)
+- Eye Mask: Block number string contains "15" and "3" and none of the other  Eyewear conditions are met.
+
+## Stacking Rules
+- Extras: Multiple can occur on a single Royal
+- Neck traits: Chokers, Bowties, and Chains can stack together (one of each type)
+- Other special traits: Only one trait from each category can appear at a time
+- Trait hierarchy: If multiple conditions met, most common trait drawn first
+
+## Rarity Notes
+- Rarest special traits: Eyebrow Piercing (3), Vertical B&W Sweater (1), Glitch (3), Ordinal Cheek (3)
+- Most common special traits: Gold Earring (2989), Diamond Earring (2111)
+- Total Royals supply: 10,080 at minting time
+
+
