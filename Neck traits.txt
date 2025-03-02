@@ -1,0 +1,9 @@
+## Neck Traits (Can Stack in Specific Ways)
+- RED_BOWTIE: {pattern: "21", count: 399}
+- BLACK_BOWTIE: {pattern: "78", count: 200}
+- SPIKED_CHOKER: {trigger: divisible_by_15, count: 671}
+- GOLD_CHOKER: {trigger: divisible_by_13, exclude: divisible_by_15, count: 725}
+- BLACK_CHOKER: {trigger: divisible_by_12, exclude: [divisible_by_15, divisible_by_13], count: 619}
+- RAINBOW_CHOKER: {trigger: divisible_by_14, exclude: [divisible_by_15, divisible_by_13, divisible_by_12], count: 530}
+- GOLD_CHAIN: {trigger: divisible_by_17, count: 593}
+- SILVER_CHAIN: {trigger: divisible_by_19, count: 499}
