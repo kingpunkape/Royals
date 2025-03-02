@@ -1,0 +1,87 @@
+# The Royals NFT Headgear Traits Guide
+
+## Basic Mechanics
+- Headgear is determined by the **last digit** of the block number
+- Each last digit has multiple trait options triggered by specific patterns
+- All headgear has color determined by the **third digit** (fourth-to-last digit)
+- Five special crown traits are extremely rare (specific block numbers)
+
+## Headgear by Last Digit
+
+### Last Digit = 0
+- **DMT Crown**: Contains "742600" (Rarity: 1)
+- **Ice Crown**: Contains "742560" (Rarity: 1)
+- **Crown**: Contains "2" (Rarity: 351)
+- **Hoodie**: Contains "6" but not "2" (Rarity: 136)
+- **Fade Cut**: Contains "3" (Rarity: 272)
+- **Bindi**: Default if no other conditions met (Rarity: 247)
+
+### Last Digit = 1
+- **Jewelled Crown**: Contains "743461" or "39643" (Rarity: 2)
+- **Dynasty Hat**: Contains both "6" and "9" (Rarity: 99)
+- **Headband**: Contains "4" (Rarity: 519)
+- **Small Beanie**: Default if no other conditions met (Rarity: 389)
+
+### Last Digit = 2
+- **Regal Crown**: Contains "38582" or "192572" (Rarity: 2)
+- **Side Bob**: Contains both "9" and "12" (Rarity: 54)
+- **Bowler Hat**: Contains "3" (Rarity: 417)
+- **Bucket Cap**: Default if no other conditions met (Rarity: 535)
+
+### Last Digit = 3
+- **Summer Straw Hat**: Contains "5" (Rarity: 320)
+- **Viking Hat**: Contains "43" but not "8", "6", or "2" (Rarity: 63)
+- **Army Cap**: Default if no other conditions met (Rarity: 624)
+
+### Last Digit = 4
+- **Long Hair**: Contains "22" (Rarity: 28)
+- **Bamboo Hat**: Contains "6" (Rarity: 189)
+- **Undercut**: Default if no other conditions met (Rarity: 791)
+
+### Last Digit = 5
+- **Opulent Crown**: Contains "449955" (Rarity: 2)
+- **Rainbow Mohawk**: Contains "7" (Rarity: 13)
+- **Peak**: Contains "4" (Rarity: 532)
+- **Mohawk**: Default if no other conditions met (Rarity: 462)
+
+### Last Digit = 6
+- **Top Hat**: Contains "7" (Rarity: 354)
+- **Flipped Cap**: Default if no other conditions met (Rarity: 652)
+
+### Last Digit = 7
+- **Bucket Hat**: Contains "2" (Rarity: 353)
+- **Tiara**: Contains "4" (Rarity: 348)
+- **Bandana**: Default if no other conditions met (Rarity: 306)
+
+### Last Digit = 8
+- **Short Spikes**: Contains "22" (Rarity: 28)
+- **Devil Horns**: Contains "5" (Rarity: 315)
+- **Snapback**: Default if no other conditions met (Rarity: 666)
+
+### Last Digit = 9
+- **Rainbow Dreads**: Contains "69" (Rarity: 112)
+- **Keffiyeh**: Contains "6" (Rarity: 80)
+
+## Rarity Distribution
+
+### Most Rare Headgear
+1. DMT Crown (1)
+2. Ice Crown (1)
+3. Jewelled Crown (2)
+4. Regal Crown (2)
+5. Opulent Crown (2)
+
+### Most Common Headgear
+1. Undercut (791)
+2. Snapback (666)
+3. Flipped Cap (652)
+4. Army Cap (624)
+5. Bucket Cap (535)
+
+## Pattern Recognition
+- "654321" pattern used for digit assignment (reverse order)
+- Complex conditional logic determines trait selection
+- Many traits have fallback conditions when specific patterns aren't found
+- The system creates a balanced rarity distribution with few ultra-rare items
+
+This trait system follows a classic NFT rarity pyramid structure with approximately 40 different headgear types.
