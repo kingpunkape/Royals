@@ -1,0 +1,7 @@
+## Facial Hair (Only One at a Time)
+- MUSTACHE: {pattern: ["18", "3"], count: 96}
+- BEARD_SHADOW: {pattern: ["63", "1"], count: 97}
+- BIG_BEARD: {pattern: ["71", "3"], count: 71}
+- GOATEE: {pattern: ["12", "4"], count: 202}
+- BEARD: {pattern: ["1", "15"], count: 357}
+- VENDETTA: {condition: three_5_digits, exclude: [mustache, beard_shadow, big_beard, goatee, beard], count: 36}
