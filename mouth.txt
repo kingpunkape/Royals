@@ -1,0 +1,44 @@
+MOUTH_TRAITS:
+
+STANDARD_COLORS:
+DIGIT_0: {color: ORANGE, count: 2193}
+DIGIT_1: {color: CYAN, count: 1170}
+DIGIT_2: {color: GREEN, count: 1962}
+DIGIT_3: {color: YELLOW, count: 1436}
+DIGIT_4: {color: GREY, count: null}
+DIGIT_5: {color: PURPLE, count: null}
+DIGIT_6: {color: BLUE, count: null}
+DIGIT_7: {color: WHITE, count: null}
+DIGIT_8: {color: PINK, count: 827}
+DIGIT_9: {color: RED, count: 2272}
+
+SPECIAL_PATTERNS:
+- RAINBOW: {
+    trigger: contains_999,
+    count: 34
+  }
+- GLITCH: {
+    trigger: contains_9999,
+    count: 3,
+    animated: true
+  }
+- BLACK: {
+    trigger: contains_499,
+    count: 100
+  }
+- BLACK_AND_WHITE: {
+    trigger: [contains_99, contains_2],
+    count: 83
+  }
+
+RARITY_ANALYSIS:
+STANDARD_COLORS:
+- MOST_COMMON: {type: RED, count: 2272}
+- SECOND_MOST_COMMON: {type: ORANGE, count: 2193}
+
+SPECIAL_PATTERNS:
+- RAREST: {type: GLITCH, count: 3}
+
+DISTRIBUTION_NOTES:
+- DISTRIBUTION_TYPE: highly_uneven
+- UNRELEASED_COLORS: [GREY, PURPLE, BLUE, WHITE]
