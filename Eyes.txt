@@ -1,0 +1,39 @@
+EYE_COLOR_TRAITS:
+
+STANDARD_COLORS:
+LAST_DIGIT_0: {color: ORANGE, count: 1000}
+LAST_DIGIT_1: {color: CYAN, count: 998}
+LAST_DIGIT_2: {color: GREEN, count: 1001}
+LAST_DIGIT_3: {color: YELLOW, count: 1000}
+LAST_DIGIT_4: {color: GREY, count: 1001}
+LAST_DIGIT_5: {color: PURPLE, count: 1000}
+LAST_DIGIT_6: {color: BLUE, count: 997}
+LAST_DIGIT_7: {color: FAWN, count: 997}
+LAST_DIGIT_8: {color: PINK, count: 1001}
+LAST_DIGIT_9: {color: RED, count: 1002}
+
+SPECIAL_CASES:
+ALIEN_EYES:
+- COLOR: LIME_GREEN
+- TRIGGER: block_divisible_by: 111
+- EXCLUSIONS: [69, 16]
+- OVERRIDES: standard_color
+
+PUPIL_POSITIONS:
+RIGHT:
+- CONDITION: last_four_digits < 3700
+- COUNT: 6612
+
+LEFT:
+- CONDITION: last_four_digits > 4300
+- COUNT: 3264
+
+CROSS_EYED:
+- CONDITION: 3700 <= last_four_digits <= 4300
+- COUNT: 204
+
+DISTRIBUTION_ANALYSIS:
+- MOST_COMMON: RED (1002)
+- LEAST_COMMON: [BLUE, FAWN] (997)
+- AVERAGE_COUNT: 1000
+- VARIANCE: 5
