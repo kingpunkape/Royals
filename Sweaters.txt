@@ -1,0 +1,5 @@
+## Sweaters (Only One at a Time)
+- VERTICAL_RAINBOW: {pattern: "11111", count: null}
+- VERTICAL_BW: {pattern: "1111", exclude: "11111", count: 1}
+- RAINBOW: {pattern: "111", exclude: ["11111", "1111"], count: 18}
+- BW: {pattern: ["11", "2"], exclude: ["11111", "1111", "111"], count: 317}
