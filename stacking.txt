@@ -1,0 +1,10 @@
+## Stacking Rules
+- EXTRAS: multiple_allowed
+- NECK_TRAITS: one_per_type
+- OTHER_CATEGORIES: one_per_category
+- HIERARCHY: most_common_first
+
+## Rarity Notes
+- Rarest special traits: EYEBROW_PIERCING (3), VERTICAL_BW_SWEATER (1), GLITCH (3), ORDINAL_CHEEK (3)
+- Most common special traits: GOLD_EARRING (2989), DIAMOND_EARRING (2111)
+- Total Royals supply: 10,080 at minting time
