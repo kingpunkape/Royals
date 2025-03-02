@@ -183,7 +183,7 @@ RARE_BODIES:
 DIVISIBILITY_BASED:
 - ALIEN: {
     trigger: divisible_by_111,
-    exclude: divisible_by_69,
+    exclude: [divisible_by_69, divisible_by_16],
     count: 75
   }
 - DARK_SPIRIT: {
