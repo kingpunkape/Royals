@@ -1,0 +1,63 @@
+BODY_TRAITS:
+
+STANDARD_COLORS:
+LAST_DIGIT_0: {color: ORANGE, count: 912}
+LAST_DIGIT_1: {color: CYAN, count: 883}
+LAST_DIGIT_2: {color: GREEN, count: 809}
+LAST_DIGIT_3: {color: YELLOW, count: 782}
+LAST_DIGIT_4: {color: GREY, count: 900}
+LAST_DIGIT_5: {color: PURPLE, count: 927}
+LAST_DIGIT_6: {color: BLUE, count: 813}
+LAST_DIGIT_7: {color: FAWN, count: 947}
+LAST_DIGIT_8: {color: PINK, count: 908}
+LAST_DIGIT_9: {color: RED, count: 939}
+
+RARE_BODIES:
+DIVISIBILITY_BASED:
+- ALIEN: {
+    trigger: divisible_by_111,
+    exclude: [divisible_by_69, divisible_by_16],
+    count: 75
+  }
+- DARK_SPIRIT: {
+    trigger: divisible_by_69,
+    count: 138
+  }
+- SKELLY: {
+    trigger: divisible_by_16,
+    count: 602
+  }
+
+PATTERN_BASED:
+- CLOWN: {
+    trigger: contains_333,
+    count: 24
+  }
+- RARE_PEPE: {
+    trigger: second_last_digit_2,
+    additional: [contains_5, contains_3],
+    count: 102
+  }
+- GOLD: {
+    trigger: second_last_digit_3,
+    additional: [contains_7, contains_9],
+    count: 126
+  }
+- ZOMBIE: {
+    trigger: second_last_digit_1,
+    additional: [contains_2, contains_8],
+    count: 54
+  }
+
+RARITY_ANALYSIS:
+STANDARD_BODIES:
+- MOST_COMMON: {type: PURPLE, count: 927}
+- LEAST_COMMON: {type: YELLOW, count: 782}
+
+RARE_BODIES:
+- MOST_COMMON: {type: SKELLY, count: 602}
+- LEAST_COMMON: {type: CLOWN, count: 24}
+
+SPECIAL_RULES:
+- COMBINATIONS_ALLOWED: true
+- OVERRIDE_STANDARD: true
