@@ -1,0 +1,37 @@
+NOSE_TRAITS:
+
+STANDARD_COLORS:
+DIGIT_0: {color: ORANGE, count: 1055}
+DIGIT_1: {color: CYAN, count: 817}
+DIGIT_2: {color: GREEN, count: null}
+DIGIT_3: {color: YELLOW, count: 1574}
+DIGIT_4: {color: GREY, count: 2561}
+DIGIT_5: {color: PURPLE, count: 1470}
+DIGIT_6: {color: BLUE, count: null}
+DIGIT_7: {color: FAWN, count: null}
+DIGIT_8: {color: PINK, count: null}
+DIGIT_9: {color: RED, count: 1862}
+
+SPECIAL_CASES:
+- ALIEN_NOSE: {
+    trigger: body_type_alien,
+    count: 83
+  }
+- SKELLY_NOSE: {
+    trigger: body_type_skelly,
+    count: null
+  }
+
+RARITY_ANALYSIS:
+STANDARD_COLORS:
+- MOST_COMMON: {type: GREY, count: 2561}
+- SECOND_MOST: {type: RED, count: 1862}
+- THIRD_MOST: {type: YELLOW, count: 1574}
+- LEAST_COMMON: {type: CYAN, count: 817}
+- UNRELEASED: [GREEN, BLUE, FAWN, PINK]
+
+DISTRIBUTION_NOTES:
+- DISTRIBUTION_TYPE: highly_uneven
+- MAX_RATIO: 3.13 (GREY vs CYAN)
+- CROSS_DEPENDENCIES: [ALIEN_BODY, SKELLY_BODY]
+- INDEPENDENCE: standard_colors_independent_of_special_cases
