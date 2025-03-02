@@ -1,0 +1,29 @@
+HEADGEAR_COLOR_TRAITS:
+
+STANDARD_COLORS:
+DIGIT_0: {color: ORANGE, count: 1000}
+DIGIT_1: {color: CYAN, count: 1000}
+DIGIT_2: {color: GREEN, count: 998}
+DIGIT_3: {color: YELLOW, count: 1005}
+DIGIT_4: {color: GREY, count: 999}
+DIGIT_5: {color: PURPLE, count: 1027}
+DIGIT_6: {color: BLUE, count: 998}
+DIGIT_7: {color: FAWN, count: 1000}
+DIGIT_8: {color: PINK, count: 1027}
+DIGIT_9: {color: RED, count: null}
+
+RARITY_ANALYSIS:
+MOST_COMMON:
+- TYPE: [PURPLE, PINK]
+- COUNT: 1027
+
+LEAST_COMMON:
+- TYPE: [GREEN, BLUE]
+- COUNT: 998
+
+SPECIAL_RULES:
+- COLOR_INDEPENDENCE: true
+- EXCEPTIONS: [RAINBOW_MOHAWK]
+- DISTRIBUTION: even
+- VARIANCE: minimal
+- APPLIES_TO: [CROWNS, HATS, HAIRSTYLES]
