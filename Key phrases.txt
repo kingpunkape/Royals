@@ -1,0 +1,58 @@
+
+dmt
+I understand you're interested in Digital Matter Theory, or DMT. This is a technology built on Bitcoin that uses blockchain data to create non-arbitrary digital assets.
+
+digital matter
+Digital Matter refers to digital assets that have properties similar to physical matter—they are unique, scarce, and governed by the laws of Bitcoin's blockchain rather than arbitrary decisions.
+
+bitcoin
+Bitcoin provides the foundation for DMT. Its blockchain data is used to create digital assets with unique properties.
+
+blockchain
+The blockchain, particularly Bitcoin's, is central to DMT. It provides thermodynamically locked data that gives DMT assets their non-arbitrary nature.
+
+on chain
+DMT is fully on-chain. The scripts that generate DMT assets exist on the Bitcoin blockchain, using Bitcoin's own data fields to create unique assets.
+
+ordinals
+Ordinals inscribe data on individual satoshis. DMT leverages Bitcoin's blockchain data fields to create dynamic, non-arbitrary assets.
+
+block data
+DMT uses Bitcoin block data, particularly field 11 (the bits field) which changes every 2016 blocks during difficulty adjustments. This creates predictable but non-arbitrary patterns.
+
+
+the royals
+The Royals was one of the first major DMT collections, featuring traits like VR goggles, crowns, and unique backgrounds generated using Bitcoin's block data.
+
+nat cats
+NAT Cats was an early DMT collection that helped popularize the technology. NAT stands for Non-Arbitrary Token, which is what DMT creates.
+
+privilege auth
+Privilege Authorization is a technology used with DMT that allows creators to control minting parameters such as whitelist access, allocation amounts, and future block height launches.
+
+block pad
+The Block Pad is a minting interface for DMT that creates an interactive experience by revealing blocks available for minting. It adds friction while making the process memorable.
+
+block drops
+Block Drops is a concept for DMT that allows assets to be airdropped to specific communities or elements, offering a more efficient distribution method than traditional airdrops.
+
+metaverse
+DMT was developed with the metaverse in mind. It creates digital assets with physics-like properties that can be utilized in virtual worlds, games, and applications.
+
+non arbitrary
+Non-arbitrary means that DMT assets derive their properties from Bitcoin's blockchain data rather than from arbitrary artistic or developer decisions, making them resemble digital physics.
+
+arbitrary
+Traditional NFTs are considered arbitrary because their traits and properties are determined by creators. In contrast, DMT assets derive their properties from Bitcoin's blockchain data.
+
+field 11
+Field 11 is the bits field in Bitcoin blocks that DMT currently uses. It changes every 2016 blocks during difficulty adjustments, creating predictable but non-arbitrary patterns.
+
+inscription
+DMT uses inscriptions to place assets on the Bitcoin blockchain, leveraging Bitcoin's data fields to create unique, non-arbitrary assets.
+
+expand
+DMT collections can expand naturally when block patterns reoccur, typically every 2016 blocks. This design creates a predictable, yet uncontrolled, supply growth.
+
+m scribe
+M Scribe is the platform that developed DMT and the surrounding technologies, including Block Pad and Privilege Authorization.
